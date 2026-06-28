@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "klax",
+  "version": "1.0.1+1.21",
+  "name": "KlaxUtils",
+  "description": "Utils t0tem poping in minecraft.",
+  "authors": [
+    "FullSpaam"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/klaxutils",
+    "sources": "https://github.com/fullspam/klaxutilssrc"
+  },
+  "license": "MIT",
+  "icon": "assets/klax/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.spaam.klax.Main"
+    ]
+  },
+  "mixins": [
+    "client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "~1.21"
+  },
+  "recommends": {
+    "sodium": "*"
+  },
+  "conflicts": {
+    "slight-gui-modifications": "*",
+    "vulkanmod": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.com/users/1516780745371160797"
+      }
+    }
+  }
+}
