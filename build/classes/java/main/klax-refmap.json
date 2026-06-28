@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "net/spaam/klax/mixin/ClientPlayerInteractionManagerAccessor": {
+      "syncSelectedSlot": "method_2911()V"
+    },
+    "net/spaam/klax/mixin/MinecraftClientMixin": {
+      "tick": "Lnet/minecraft/class_310;method_1574()V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/spaam/klax/mixin/ClientPlayerInteractionManagerAccessor": {
+        "syncSelectedSlot": "method_2911()V"
+      },
+      "net/spaam/klax/mixin/MinecraftClientMixin": {
+        "tick": "Lnet/minecraft/class_310;method_1574()V"
+      }
+    }
+  }
+}
